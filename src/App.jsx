@@ -6,8 +6,9 @@ const App = () => {
   return (
     <AppContextWrapper>
       <div>
-        <h4 className="text-center"><strong>Listado de tareas</strong> </h4>
-        </div>
+        <h4>Listado de tareas Demo Web Avanzada</h4>
+        <hr />
+      </div>
       <TasksContainer />
     </AppContextWrapper>
   );
