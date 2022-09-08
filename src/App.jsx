@@ -5,7 +5,9 @@ import { AppContextWrapper } from "./store/AppContext";
 const App = () => {
   return (
     <AppContextWrapper>
-      <div>Holis Andre, puedes poner bonito este titulo? :3 </div>
+      <div>
+        <h4 className="text-center"><strong>Listado de tareas</strong> </h4>
+        </div>
       <TasksContainer />
     </AppContextWrapper>
   );
